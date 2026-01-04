@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(216, 24%, 96%);
+    overflow-y: scroll;
+    direction: ltr;
+
+
+}
+
+.container {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-part {
+    width: 40%;
+
+
+}
+
+h3 {
+    font-size: 24px;
+    color: #1c1e21;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.Rightpart {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 396px;
+    height: auto;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pad: 15px 0px;
+}
+
+input {
+    width: 380px;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+button {
+    width: 380px;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 16px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: royalblue;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+hr {
+    border: 1px solid #ccc;
+    width: 320px;
+    margin: 20px 0px;
+}
+
+.createaccount {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #42b72a;
+    width: 250px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.createPage {
+    margin-top: 17px;
+}
+
+.createPage a {
+    border-top: none;
+    color: #1c1e21;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    padding-top: 28px;
+}
